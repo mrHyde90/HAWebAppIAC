@@ -1,0 +1,22 @@
+[
+    {
+        "ParameterKey": "EnvironmentName",
+        "ParameterValue": "HAWebAppIAC"
+    },
+    {
+        "ParameterKey": "RoleService",
+        "ParameterValue": "ec2.amazonaws.com"
+    },
+    {
+        "ParameterKey": "PolicyName",
+        "ParameterValue": "UdacityS3PolicyOnlyRead"
+    },
+    {
+        "ParameterKey": "InstanceType",
+        "ParameterValue": "t3.small"
+    },
+    {
+        "ParameterKey": "SecurityGroupLBDescription",
+        "ParameterValue": "Allow http to our load balancer"
+    }
+]
